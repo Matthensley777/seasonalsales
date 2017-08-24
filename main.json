@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Kids socks",
+      "price": 4.99,
+      "image": "https://www.dollartree.com/assets/product_images_2016/styles/xlarge/929343.jpg",
+      "category_id": 1
+    },
+    {
+      "id": 1,
+      "name": "Mens socks",
+      "price": 6.99,
+      "image": "https://www.rei.com/media/product/843753",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Ladies socks",
+      "price": 7.99,
+      "image": "http://pbtexbd.com/products/918.jpg",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Foot stool",
+      "price": 14.99,
+      "image": "http://img.hobbylobby.com/sys-master/root/h13/hd6/h00/9107165478942/1005990[5].jpg",
+      "category_id": 2
+    },
+    {
+      "id": 4,
+      "name": "Lava lamp",
+      "price": 9.99,
+      "image": "https://i5.walmartimages.com/asr/ebc89557-af7a-48a4-a6d4-d8dd0202f5a8_1.70d94df708f64845b065d3910f89e993.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+      "category_id": 2
+    },
+    {
+      "id": 5,
+      "name": "3 drawer dresser",
+      "price": 64.99,
+      "image": "https://www.westelm.com/weimgs/ab/images/wcm/products/201713/0012/reclaimed-wood-lacquer-3-drawer-dresser-c.jpg",
+      "category_id": 2
+    },
+    {
+      "id": 6,
+      "name": "Air filter",
+      "price": 6.99,
+      "image": "https://target.scene7.com/is/image/Target/15113375_Alt01?wid=520&hei=520&fmt=pjpeg",
+      "category_id": 3
+    },
+    {
+      "id": 7,
+      "name": "Surge protector",
+      "price": 8.99,
+      "image": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4689/4689072_sd.jpg;maxHeight=550;maxWidth=642",
+      "category_id": 3
+    },
+    {
+      "id": 8,
+      "name": "Plastic storage bin",
+      "price": 3.99,
+      "image": "http://www.homedepot.com/catalog/productImages/1000/85/85f571b8-1a47-4083-996c-ffaf3ff07260_1000.jpg",
+      "category_id": 3
+    },
+    {
+      "id": 9,
+      "name": "Light bulb",
+      "price": 1.99,
+      "image": "https://mobileimages.lowes.com/product/converted/080629/080629481619.jpg",
+      "category_id": 3
+    }
+  ]
+}
