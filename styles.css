@@ -46,3 +46,7 @@ body {
   background-image: linear-gradient(to bottom, #2e3438, #353c40);
   text-decoration: none;
 }
+
+.ss {
+	text-align: center;
+}
