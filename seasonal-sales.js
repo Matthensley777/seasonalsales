@@ -3,13 +3,10 @@ var products = [];
 var addedPrice = 0;
 var total = document.getElementById("results");
 
-total.addEventListener("click", addingUpTotalProducts);
 
-function addingUpTotalProducts () {
+function addingUpTotalProducts() {
 
 }
-
-
 
 var dropdown = document.getElementById("dropdown");
 dropdown.addEventListener("change", function(event) {
@@ -28,24 +25,19 @@ function productDom(discountSeason) {
         currentProduct = products[i];
 
         productBuilder += `<div class="product">`;
-        productBuilder +=`<img class="image" src="${products[i].image}">`
+        productBuilder += `<img class="image" src="${products[i].image}">`
         productBuilder += `<h3>${currentProduct.name}</h3>`;
         if (discountSeason === products[i].catagory_season_discount) {
             productBuilder += `<div class="price">$${products[i].season_price}</div>`
         } else {
             productBuilder += `<div class="price">$${products[i].price}</div>`
-            productBuilder += `<br><button class="btn" id="btn">Add To Cart</button>`
+            productBuilder += `<br><button class="btn">Add To Cart</button>`
         }
-            productBuilder += `</div>`;
-
+        productBuilder += `</div>`;
     }
 
     productContainer.innerHTML = productBuilder;
-
 };
-
-
-
 
 function useForProducts() {
 
@@ -58,20 +50,14 @@ function useForProducts() {
                 product["catagory_season_discount"] = departments[j].season_discount;
                 product["season_price"] = product.price - (product.price * departments[j].discount)
             }
-
         }
     });
-
     productDom("none");
-
 }
-
-
 
 function useForDepartment() {
 
     departments = JSON.parse(this.responseText).departments;
-    productXHR();
 }
 
 
@@ -80,10 +66,18 @@ myRequest.addEventListener("load", useForDepartment);
 myRequest.open("GET", "department.json");
 myRequest.send();
 
-function productXHR() {
-    var myRequestTwo = new XMLHttpRequest();
-    myRequestTwo.addEventListener("load", useForProducts);
-    myRequestTwo.open("GET", "main.json");
-    myRequestTwo.send();
+var myRequestTwo = new XMLHttpRequest();
+myRequestTwo.addEventListener("load", useForProducts);
+myRequestTwo.open("GET", "main.json");
+myRequestTwo.send();
 
-}
+
+
+
+
+
+
+
+
+
+
