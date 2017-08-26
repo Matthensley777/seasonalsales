@@ -35,6 +35,9 @@ The Basics of the Project
 ### How To Download
 
 * From Project page click on Clone Download link. 
+* Click on Clipboard to copy link.
+
 ![Click on clipboard to copy link](https://github.com/Matthensley777/seasonalsales/blob/master/images/Screen%20Shot%202017-08-26%20at%209.36.24%20AM.png)
 * From Terminal.
-![type get clone, and past link](https://github.com/Matthensley777/seasonalsales/blob/master/images/Screen%20Shot%202017-08-26%20at%209.37.02%20AM.png)
+* Type git clone and past in link.
+![type git clone, and past link](https://github.com/Matthensley777/seasonalsales/blob/master/images/Screen%20Shot%202017-08-26%20at%209.37.02%20AM.png)
